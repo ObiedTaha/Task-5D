@@ -1,0 +1,43 @@
+section {
+    background-color: rgba(27, 28, 55, 1);
+
+    .gridSvg {
+        // position: absolute;
+        // // inset: 0;
+        // z-index: -4; 
+    }
+
+    .bult {
+        position: absolute;
+        // z-index: -33;
+    }
+
+    h2 {
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 67.2px;
+        
+
+    }
+    h4{
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 37.8px;
+         
+    }
+    .middle{
+        position: relative;
+        top: -100px;
+        width: 30%;
+        margin: auto;
+        border-radius: 65px;
+        padding: none !important;
+        margin: 0;
+        background: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+  
+        box-shadow: rgba(117, 121, 255, 0.3);
+    }
+
+}
