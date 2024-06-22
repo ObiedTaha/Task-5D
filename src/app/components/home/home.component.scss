@@ -1,44 +1,48 @@
 .rightSvg {
-    position: absolute;
-    left: 0;
+  position: absolute;
+  left: 0;
 }
 
 section {
 
-    .col-md-5 {
-        .tripple {
-            position: absolute;
-            right: 30px;
-            top: 0px;
-        }
-
-        h1 {
-            font-weight: 500;
-            font-size: 100px;
-
-        }
-
-        p {
-            padding: 40px 100px 0px 0;
-
-        }
-
-        .vector {
-            position: relative;
-            top: 50px;
-            transform: rotate(45%);
-
-        }
-
-        .contact {
-            padding: 5px 50px;
-        }
-
-        .bullets {
-            position: absolute;
-            top: 77%;
-            left: -20%;
-            z-index: -4342;
-        }
+  .col-md-5 {
+    .tripple {
+      position: absolute;
+      right: 30px;
+      top: 0px;
     }
+
+    h1 {
+      font-weight: 500;
+      font-size: 100px;
+
+    }
+
+    p {
+      padding: 40px 100px 0px 0;
+
+    }
+
+    .vector {
+      position: relative;
+      top: 50px;
+      transform: rotate(45%);
+
+    }
+
+    .contact {
+      padding: 5px 50px;
+    }
+
+    .bullets {
+      position: absolute;
+      top: 77%;
+      left: -20%;
+      z-index: -4342;
+    }
+  }
+}
+
+h1[name] {
+  background: url('../../../assets/Images/tripple.svg') no-repeat right top;
 }
