@@ -1,0 +1,42 @@
+section {
+    // background: url('../../../assets/Images/Ellipse.svg') no-repeat right top;
+
+    h3 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 67.2px;
+        padding-bottom: 15px;
+        color:  #a831f1;
+    }
+
+    h3[underline] {
+        background: url('../../../assets/Images/Underline_06.svg') no-repeat bottom right;
+
+    }
+    h5{
+        
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25.2px;
+        color:  #a831f1;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14.7px;
+    }
+    .card{
+        border: 1px solid rgba(237, 238, 255, 1);
+        box-shadow: 0px 4px 24px 0px rgba(67, 67, 67, 0.18);
+
+        position: relative;
+    }
+    img{
+        transform: translateY(-50%);
+        // position: absolute;
+        // inset: 0 0;
+        // top: -50%;
+        // width: 25px;
+    }
+  
+}
